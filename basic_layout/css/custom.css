@@ -17,7 +17,10 @@ h1 {
 .script {
     font-family: 'PetitFormalScriptRegular'; 
     font-weight: normal; 
-    font-style: normal; 
+    font-style: normal;
+    text-align: justify;
+    padding-right: 90px;
+    padding-left: 90px; 
 }
 
 body {
@@ -29,10 +32,6 @@ body {
     border-bottom: 1px solid #708090
     ;
     padding-bottom: 50px;
-}
-
-.container-fluid-noborder {
-    /* border-bottom: 1px solid black; */
 }
 
 
@@ -85,6 +84,7 @@ a:active {
 
 .containermargin {
     margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 
@@ -94,9 +94,10 @@ a:active {
 }
 
 .contentbox {
-    /* width: 320px;
+    width: 356px;
+    height: 280px;
     padding: 10px;
-    margin: 10; */
+    margin: 10;
     text-align: center;
     border: 1px solid black;
 }
@@ -122,5 +123,9 @@ a:active {
 
 .dropshadow {
     box-shadow: 7px 7px 9px rgb(83, 90, 96);
+}
+
+.pic_center {
+    text-align: center;
 }
 
